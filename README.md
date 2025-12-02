@@ -139,7 +139,6 @@ ColQwen3's vision language backbone model ([Qwen3-VL](https://github.com/QwenLM/
 
 ❤️❤️❤️
 
-> [!WARNING]
 > Thanks to the **Colpali team** and **Qwen team** for their excellent open-source works!
 > I accomplished this work by **standing on the shoulders of giants~**
 
