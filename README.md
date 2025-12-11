@@ -10,6 +10,8 @@
 
 ## 📜 News
 
+**[2025.12.10]** 🎉🎉 I have released the [ColQwen3-v0.2](https://huggingface.co/goodman2001/colqwen3-v0.2) model based on ColQwen3-Base
+
 **[2025.12.02]** 🎉🎉 I have released the [ColQwen3-v0.1](https://huggingface.co/goodman2001/colqwen3-v0.1) model based on ColQwen3-Base
 
 **[2025.12.02]** 🎉🎉 I have released the [ColQwen3-Base](https://huggingface.co/goodman2001/colqwen3-base) model based on Qwen3-VL-2B-Instruct
@@ -132,7 +134,16 @@ accelerate launch --multi-gpu scripts/configs/qwen3/train_colqwen3_model.py
 
 </details>
 
-## ColQwen3-v0.1 Test Results
+## ColQwen3 Test Results
+
+
+🎉🎉 **[2025.12.08]** I used [mteb](https://github.com/illuin-tech/vidore-benchmark) to evaluate(NDCG@5) my ColQwen3-v0.1 retriever on the **ViDoRe benchmark v2**.
+
+| model          | BioMedicalLectures-french | BioMedicalLectures-spanish | BioMedicalLectures-english | BioMedicalLectures-german | EconomicsReports-french | EconomicsReports-spanish | EconomicsReports-english | EconomicsReports-german | ESGReports-french | ESGReports-spanish | ESGReports-english | ESGReports-german | ESGReportsHL |
+|----------------|---------------------------|----------------------------|----------------------------|---------------------------|-------------------------|---------------------------|---------------------------|--------------------------|-------------------|--------------------|--------------------|-------------------|-------------|
+| **colqwen3-v0.1**  | 55.32                     | 56.35                      | 58.87                      | 51.73                     | 40.77                   | 41.38                     | 57.22                     | 44.38                    | 50.51             | 47.12              | 51.34              | 48.08             | 55.75       |
+| **colqwen3-v0.2**  | 57.40                     | 58.67                      | 62.37                      | 56.45                     | 50.18                   | 52.90                     | 63.24                     | 53.58                    | 52.97             | 50.89              | 50.81              | 52.61             | 52.87       |
+
 
 ⚙️I used [mteb](https://github.com/illuin-tech/vidore-benchmark) to evaluate my ColQwen3-v0.1 retriever on the ViDoRe benchmark.
 
