@@ -10,7 +10,6 @@
 
 ## 📜 News
 
-**[2025.03.27]** 🎉🎉 I have released ColQwen3.5-2B-Base model based on Qwen3.5-2B
 
 **[2025.12.10]** 🎉🎉 I have released the [ColQwen3-v0.2](https://huggingface.co/goodman2001/colqwen3-v0.2) model based on ColQwen3-Base
 
